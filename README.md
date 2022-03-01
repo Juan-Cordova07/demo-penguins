@@ -5,7 +5,7 @@ Demo data set: Example from google data analytics course
 title: "Demo: ggplot_hook"
 author: "Juan Cordova"
 date: "2/18/2022"
-output: html_document
+output: github_document
 ---
 # Demo data set: 
 
