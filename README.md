@@ -1,23 +1,18 @@
-# demo-penguins
-Demo data set: Example from google data analytics course
+Demo: ggplot_hook
+================
+Juan Cordova
+2/18/2022
 
----
-title: "Demo: ggplot_hook"
-author: "Juan Cordova"
-date: "2/18/2022"
-output: github_document
----
-# Demo data set: 
+# Demo data set:
 
 ### Example from google data analytics course
 
 ## Setting up my environment
-Notes: Setting up my R environment by loading the 'tidyverse' and 'palmerpenguins' packages
 
-```{r loading packages, message=FALSE, warning=FALSE}
-install.packages("tidyverse")
-install.packages("ggplot2")
-install.packages("palmerpenguins")
+Notes: Setting up my R environment by loading the ‘tidyverse’ and
+‘palmerpenguins’ packages
+
+``` r
 library(tidyverse)
 library(ggplot2)
 library(palmerpenguins)
@@ -26,11 +21,12 @@ library(palmerpenguins)
 # Visualizations
 
 ### Creating a visualization
-* Comparison between penguin's flipper length and body mass
 
-```{r mas tipos de graficas, message=FALSE, warning=FALSE}
+-   Comparison between penguin’s flipper length and body mass
+
+``` r
 ggplot(data= penguins) + 
   geom_smooth(mapping = aes(x= flipper_length_mm, y= body_mass_g))
 ```
 
-
+![](ggplot_hook_notes_files/figure-gfm/mas%20tipos%20de%20graficas-1.png)<!-- -->
